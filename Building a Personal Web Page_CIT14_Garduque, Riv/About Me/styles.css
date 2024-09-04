@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55c74bba-ce24-45c0-b76b-9db843af339d/dfxmu12-a044a608-b4af-445c-b831-991afad50b78.png/v1/fill/w_1224,h_653,q_70,strp/genshin_impact___landscape_02_vers_b_by_thediffusionguy_dfxmu12-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjgzIiwicGF0aCI6IlwvZlwvNTVjNzRiYmEtY2UyNC00NWMwLWI3NmItOWRiODQzYWYzMzlkXC9kZnhtdTEyLWEwNDRhNjA4LWI0YWYtNDQ1Yy1iODMxLTk5MWFmYWQ1MGI3OC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.72aanrf_ss71idhoLmEG5XSNf8ZtXCrllItadw2Ouek');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .githbicn {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-card {
+    text-align: center;
+}
+
+.intro-card h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro-card p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#moreInfo {
+    margin-top: 20px;
+}
+
+#moreInfo h2, #moreInfo h3 {
+    color: #007BFF;
+}
+
+
+  .section-title {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 0.5s ease-in-out forwards;
+    animation-delay: 1s;
+  }
+  
+  .section-text {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 0.5s ease-in-out forwards;
+    animation-delay: 1.2s;
+  }
+  
+  .profile-pic {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 0.5s ease-in-out forwards;
+    animation-delay: 1.4s;
+  }
+  
+  .button {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 0.5s ease-in-out forwards;
+    animation-delay: 2.8s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
